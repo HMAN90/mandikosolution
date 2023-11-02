@@ -14,7 +14,7 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@alpha"></script> -->
     <script>
       var video = document.getElementById("video");
-      var videoSrc = "http://localhost:8080/hls/test.m3u8";
+      var videoSrc = "http://ec2-3-77-31-108.eu-central-1.compute.amazonaws.com:8080/hls/abidi.m3u8";
       if (Hls.isSupported()) {
         var hls = new Hls();
         hls.loadSource(videoSrc);
